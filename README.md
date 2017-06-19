@@ -33,6 +33,12 @@ Once we have the refrence trajectory and the state, we pass both of them to MPC.
 
 Once we have the optimal trajectory we skip the first actuation and select the next actuation to be sent back to the simulator and performed on the car. This is because dt = 0.1 ms and the actuator latency is 100ms. So if we skip the first actuation we successfully handle latency of 100ms in our model.
 
+## Video for the project
+https://youtu.be/AZ52LOeAHrk
+
+Yellow line : reference trajectory.
+
+Green line : predicted trajectory.
 
 ## Dependencies
 
