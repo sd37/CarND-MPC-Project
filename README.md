@@ -45,6 +45,7 @@ Once we have the optimal trajectory we skip the first actuation and select the n
 * gcc/g++ >= 5.4
 * Linux: gcc / g++ is installed by default on most Linux distros
 * Mac: same deal as make - [install Xcode command line tools]((https://developer.apple.com/xcode/features/)
+        
         * Windows: recommend using [MinGW](http://www.mingw.org/)
         * [uWebSockets](https://github.com/uWebSockets/uWebSockets)
         * Run either `install-mac.sh` or `install-ubuntu.sh`.
